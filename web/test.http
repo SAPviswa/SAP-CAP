@@ -1,0 +1,20 @@
+###To get employee details
+GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+
+###To get employee salary details
+GET http://localhost:4004/EmployeeSRV/Salary HTTP/1.1
+
+###To get employee salary details
+GET http://localhost:4004/EmployeeSRV/Employee?$expand=department,salary,designation,address HTTP/1.1
+
+###Add employee salary details
+POST http://localhost:4004/EmployeeSRV/Salary HTTP/1.1
+Content-Type: application/json
+
+{
+    "costToCompany":200000,
+    "employeePf":5565,
+    "employerPf":5565,
+    "nps":1000,
+    "vpf":100
+}
