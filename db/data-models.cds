@@ -4,7 +4,7 @@ using {reusable.types as types} from './ReusableTypes';
 using {
   cuid,
   managed
-} from '@sap/cds/common'; 
+} from '@sap/cds/common';
 
 
 @assert.unique: {

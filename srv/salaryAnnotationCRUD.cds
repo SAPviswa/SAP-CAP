@@ -1,9 +1,9 @@
-using EmployeeService from './Emplolyee-srv';
+using EmployeeService from './Employee-srv';
 
 annotate EmployeeService.Salary with @Capabilities : { 
     InsertRestrictions : {
         $Type : 'Capabilities.InsertRestrictionsType',
-        Insertable : false
+        Insertable : true
     },
     ReadRestrictions : {
         $Type : 'Capabilities.ReadRestrictionsType',
