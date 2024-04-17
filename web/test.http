@@ -18,3 +18,18 @@ Content-Type: application/json
     "nps":1000,
     "vpf":100
 }
+###Add employee Employee details
+POST http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+Content-Type: application/json
+
+{
+    "ID" : "4cba703a-d0e4-4809-9364-d999db17ba13",
+    "createdBy" :  "mady",
+    "modifiedBy" :"daneyal",
+    "fName": "krih",
+    "lName":"mic",
+    "gender":"M",
+    "DOB":"2005-05-15",
+    "email":"madymic@example.com",
+    "phone":"+919642435378"
+}

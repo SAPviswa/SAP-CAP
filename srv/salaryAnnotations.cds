@@ -1,4 +1,4 @@
-using EmployeeService from './Emplolyee-srv';
+using EmployeeService from './Employee-srv';
 
 annotate EmployeeService.Salary with {
     costToCompany @title: '{i18n>costToCompany}';
